@@ -42,7 +42,7 @@ enum planck_keycodes {
 #define LOWER MO(_LOWER)
 #define RAISE MO(_RAISE)
 #define RGHTLYR MO(_RGHTLYR)
-#define CTRLESC MT(MOD_LCTL, KC_ESC)  // Hold for Left Ctrl, Tap for ESC [CEsc]
+#define CTRLESC LCTL_T(KC_ESC)  // Hold for Left Ctrl, Tap for ESC [CEsc]
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
