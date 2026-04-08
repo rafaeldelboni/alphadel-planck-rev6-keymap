@@ -36,5 +36,5 @@ jobs:
       uses: actions/upload-artifact@v6
       with:
         name: hex-firwmare
-        path: ./qmk_firmware/crkbd_rev1_alphadel.hex
+        path: ./qmk_firmware/planck_rev6_alphadel.bin
         retention-days: 1
