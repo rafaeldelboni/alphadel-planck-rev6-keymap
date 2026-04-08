@@ -19,3 +19,5 @@ git clone git@github.com:rafaeldelboni/alphadel-planck-rev6-keymap.git qmk_firmw
 ```
 $ sudo make planck/rev6:alphadel
 ```
+
+![keymap](keymap-drawer/totem.svg)
